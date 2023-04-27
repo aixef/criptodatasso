@@ -44,7 +44,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [JAVA-url]: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
-[JAVA-img]:https://avatars.githubusercontent.com/u/41768318?s=200&v=4
+[JAVA-img]: https://avatars.githubusercontent.com/u/41768318?s=200&v=4
 [Maven-url]: https://maven.apache.org/download.cgi
 [Maven-img]: https://avatars.githubusercontent.com/u/47359?s=200&v=4
 [Docker-img]: https://avatars.githubusercontent.com/u/5429470?s=200&v=4
