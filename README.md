@@ -33,10 +33,10 @@ This project was build in java using Spring Boot to generate a Docker image and 
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Java 17][JAVA-img]][JDK-url] JDK 17
-* [![Spring Boot][Springboot-img]][Springboot-url] Spring boot 3.0.6
-* [![Mavens][Maven-img]][Maven-url] Maven 3.9.1
-* [![Docker][Docker-img]][Docker-url] Docker 20.10.24
+* [![Java 17][JAVA-img]][JDK-url]
+* [![Spring Boot][Springboot-img]][Springboot-url]
+* [![Mavens][Maven-img]][Maven-url]
+* [![Docker][Docker-img]][Docker-url]
 * [![Fly.io][Fly.io]][fly-url]
 
 
