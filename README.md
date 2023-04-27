@@ -35,16 +35,17 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 * [![Java 17][JAVA.com]][JDK-url]
 * [![Spring Boot][Springboot.com]][Springboot-url]
-* [![Mavens][Maven.com]][React-url]
-* [![Docker][Docker.com]][Dpcker-url]
-* [![Fly.io][Fly.io]][Springboot-url]
+* [![Mavens][Maven.com]][Maven-url]
+* [![Docker][Docker-img]][Docker-url]
+* [![Fly.io][Fly.io]][fly-url]
 
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[JAVA.com]: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
-[Maven.com]: https://maven.apache.org/download.cgi
-[Docker.com]: https://www.docker.com/products/docker-desktop/
-[Springboot.com]: https://code.visualstudio.com/docs/java/java-spring-boot
-[fly.io]: https://fly.io/
+[JAVA-url]: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
+[Maven-url]: https://maven.apache.org/download.cgi
+[Docker-img]: https://avatars.githubusercontent.com/u/5429470?s=200&v=4
+[Docker-url]: https://www.docker.com/products/docker-desktop/
+[Springboot-url]: https://code.visualstudio.com/docs/java/java-spring-boot
+[fly-url]: https://fly.io/
