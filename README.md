@@ -93,6 +93,20 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+mvn install:install-file -Dfile=C:\Users\LALO\Downloads\opentoken\ping\opentoken-agent-2.7.1.jar '-DgroupId=com.pingidentity' -DartifactId=opentoken-agent '-Dversion=2.7.1' -Dpackaging=jar -DgeneratePom=true
+
+
+mvn clean package
+
+docker build -t springservice .
+
+
+iwr https://fly.io/install.ps1 -useb | iex
+
+fly auth login
+
+fly launch
+
 [JDK-url]: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 [JAVA-img]:https://avatars.githubusercontent.com/u/41768318?s=200&v=4
 [Maven-url]: https://maven.apache.org/download.cgi
