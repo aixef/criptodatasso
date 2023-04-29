@@ -55,15 +55,30 @@ Before to start you need have installed the next programs
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
+Before compile the project install the pingidentiy library.
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Open a terminal in the root path of the project and execute the next line to install the project dependency. 
+
+mvn install:install-file -Dfile=<filepath >'-DgroupId=com.pingidentity' -DartifactId=opentoken-agent '-Dversion=2.7.1' -Dpackaging=jar -DgeneratePom=true
+
+Replace the <filepath> by the path of the library jar.
+Example: 
+mvn install:install-file -Dfile=C:\Users\local\Downloads\opentoken\ping\opentoken-agent-2.7.1.jar
+
+To compile the project when you make changes in the jab classes execute the next command line in the root of the project
+
+mvn clean package
+
+To generate the new docker image execute the next command line
+
+
+docker build -t springservice .
+
+This command will generate tart file in your local machine. 
+To deploy the docker image to the fly.io server follow the next steps:
+
+
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
